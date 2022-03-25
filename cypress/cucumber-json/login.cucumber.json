@@ -1,0 +1,112 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Login Test Feature",
+    "line": 1,
+    "id": "login-test-feature",
+    "tags": [],
+    "uri": "login.feature",
+    "elements": [
+      {
+        "id": "login-test-feature;test-login-with-valid-credentials",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Test login with valid credentials",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "user is on login page",
+            "result": {
+              "status": "passed",
+              "duration": 8432000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "user enters 'Admin' and 'admin123'",
+            "result": {
+              "status": "passed",
+              "duration": 2106000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "clicks on login button",
+            "result": {
+              "status": "passed",
+              "duration": 5763000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "user is navigated to the home page",
+            "result": {
+              "status": "passed",
+              "duration": 27000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "login-test-feature;test-login-with-valid-credentials",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Test login with valid credentials",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "user is on login page",
+            "result": {
+              "status": "passed",
+              "duration": 5975000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "user enters 'Test' and 'test123'",
+            "result": {
+              "status": "passed",
+              "duration": 1113000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "clicks on login button",
+            "result": {
+              "status": "passed",
+              "duration": 3139000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "user is navigated to the home page",
+            "result": {
+              "status": "failed",
+              "error_message": "AssertionError: Timed out retrying after 4000ms: Expected to find content: 'Welcome' but never did.\n    at Context.eval (https://opensource-demo.orangehrmlive.com/__cypress/tests?p=cypress\\integration\\cucumber-tests\\login.feature:51:6)\n    at Context.resolveAndRunStepDefinition (https://opensource-demo.orangehrmlive.com/__cypress/tests?p=cypress\\integration\\cucumber-tests\\login.feature:10453:29)\n    at Context.eval (https://opensource-demo.orangehrmlive.com/__cypress/tests?p=cypress\\integration\\cucumber-tests\\login.feature:9774:35)"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
